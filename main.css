@@ -1,0 +1,54 @@
+.container{
+margin: 20px;
+background-image: linear-gradient(#6680f0, #3fd3d8, #d9fff9);
+padding-bottom: 200px;
+
+}
+
+.game{
+  display:flex;
+  justify-content: center;
+  /* text-align: center; */
+}
+.game_square{
+  width: 110px;
+  height: 110px;
+  background-color: rgb(74, 28, 202);
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+
+}
+.user{
+  font-size: 50px;
+  color: white;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.header {
+  padding: 1px;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.winner {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+
+  font-family: sans-serif;
+}
+#won{
+ text-shadow: 2px 2px 2px black;
+}
+.button{
+  padding: 15px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  border-radius: 10%;
+  box-shadow: 2px 2px 2px black;
+}
